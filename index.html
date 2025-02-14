@@ -69,10 +69,12 @@
             <button class="button no-button" id="noButton">No</button>
         </div>
         
+        <!-- First Sticker (Initially Visible) -->
         <div class="sticker" id="firstSticker">
             <img src="https://media4.giphy.com/media/3eZRwwX91t7xSaNkaE/200w.gif?cid=6c09b9521dc7lm9wmz9bwmfm4r5s62vf6w04vm3syfjlxmcl&ep=v1_stickers_search&rid=200w.gif&ct=s">
         </div>
 
+        <!-- Final Message and Second Sticker (Hidden Initially) -->
         <div class="final-message" id="finalMessage">Yay! You just made my heart do a happy dance! 💖 Can't wait to spend Valentine's with you! 😘✨</div>
         <div class="final-sticker" id="finalSticker">
             <img src="https://www.icegif.com/wp-content/uploads/2022/08/icegif-570.gif">
@@ -87,7 +89,7 @@
         const finalStickerDiv = document.getElementById('finalSticker');
         let clickCount = 0;
 
-        const messages = [
+const messages = [
             "Are you sure? 😢",
             "Think again... 🥺",
             "Ponam please 🥰",
@@ -113,7 +115,7 @@
         yesButton.addEventListener('click', () => {
             finalMessageDiv.style.display = 'block';
             finalStickerDiv.style.display = 'block';
-            firstSticker.style.display = 'none';
+            firstSticker.style.display = 'none'; // Hide the first sticker
             yesButton.style.display = 'none';
             noButton.style.display = 'none';
         });
