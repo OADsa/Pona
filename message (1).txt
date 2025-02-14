@@ -75,9 +75,9 @@
         </div>
 
         <!-- Final Message and Second Sticker (Hidden Initially) -->
-        <div class="final-message" id="finalMessage">Knew you would say yes!</div>
+        <div class="final-message" id="finalMessage">SOGO TAYO AHH!</div>
         <div class="final-sticker" id="finalSticker">
-            <img src="https://media.giphy.com/media/9XY4f3FgFTT4QlaYqa/giphy.gif" alt="Excited animated sticker">
+            <img src="https://porngif.co/wp-content/uploads/2024/07/226205-unexpected-harsh-hump.gif">
         </div>
     </div>
 
