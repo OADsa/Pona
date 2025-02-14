@@ -11,7 +11,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: pink;
+            background-color: #f75989;
             font-family: Arial, sans-serif;
             text-align: center;
         }
@@ -63,21 +63,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>Can we fuck on Sunday?</h1>
+        <h1>Will you be my Valentine? ❤️</h1>
         <div class="buttons">
             <button class="button yes-button" id="yesButton">Yes</button>
             <button class="button no-button" id="noButton">No</button>
         </div>
         
-        <!-- First Sticker (Initially Visible) -->
         <div class="sticker" id="firstSticker">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.womenshealthmag.com%2Fsex-and-love%2Fg28008142%2Fsexting-emoji%2F&psig=AOvVaw1yS3vy1UNlndZ5ZIA1tEki&ust=1739589283018000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCODBooWZwosDFQAAAAAdAAAAABAn">
+            <img src="https://i.pinimg.com/originals/ea/9f/7c/ea9f7cbddc173d2d62f5d9b1e8c32ff3.gif" alt="Cute Valentine Sticker">
         </div>
 
-        <!-- Final Message and Second Sticker (Hidden Initially) -->
-        <div class="final-message" id="finalMessage">SOGOOO USSS!</div>
+        <div class="final-message" id="finalMessage">Yay! You just made my heart do a happy dance! 💖 Can't wait to spend Valentine's with you! 😘✨</div>
         <div class="final-sticker" id="finalSticker">
-            <img src="https://porngif.co/wp-content/uploads/2024/07/226205-unexpected-harsh-hump.gif">
+            <img src="https://i.pinimg.com/originals/9b/27/6e/9b276ec8b816f2ad888d6a320ae85f7b.gif" alt="Excited Reaction">
         </div>
     </div>
 
@@ -90,14 +88,11 @@
         let clickCount = 0;
 
         const messages = [
-            "Are you sure?",
-            "Really Sure??",
-            "Are you positive?",
-            "Pookie Please",
-            "Just think about it!!",
-            "If you say no, I will be really sad...",
-            "I will be very sad",
-            "I will be very very very sad..."
+            "Are you sure? 😢",
+            "Think again... 🥺",
+            "Ponam please 🥰",
+            "But I got you chocolates! 🍫",
+            "I'll be very very sad... 😭"
         ];
 
         noButton.addEventListener('click', () => {
@@ -118,7 +113,7 @@
         yesButton.addEventListener('click', () => {
             finalMessageDiv.style.display = 'block';
             finalStickerDiv.style.display = 'block';
-            firstSticker.style.display = 'none'; // Hide the first sticker
+            firstSticker.style.display = 'none';
             yesButton.style.display = 'none';
             noButton.style.display = 'none';
         });
